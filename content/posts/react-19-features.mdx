@@ -1,0 +1,48 @@
+---
+title: "React 19 新特性速览"
+date: "2026-06-18"
+category: "推荐"
+tags: ["React", "前端"]
+excerpt: "React 19 带来了 Actions、Server Components、新的 Hooks 等重大更新，本文带你快速了解这些新特性。"
+published: true
+---
+
+## Actions
+
+React 19 引入了 Actions，让表单处理更加简单。
+
+### useActionState
+
+新的 Hook 可以追踪表单提交的状态和返回值。
+
+### useFormStatus
+
+子组件可以读取父表单的提交状态，无需 props 传递。
+
+## Server Components
+
+服务端组件已经成为 React 的核心特性之一。
+
+### 零 JS 体积
+
+服务端组件只返回 HTML，不包含 JavaScript，大幅减少包体积。
+
+### 数据获取简化
+
+直接在组件内 `async/await` 获取数据，无需 `useEffect` 或 SWR。
+
+## 新的 Hooks
+
+use、useOptimistic 等新 Hooks 让状态管理更加灵活。
+
+### use() Hook
+
+可以在条件语句和循环中使用，打破了 Hooks 的规则限制。
+
+### useOptimistic
+
+乐观更新变得简单，适合评论、点赞等交互场景。
+
+## 总结
+
+React 19 标志着 React 进入了新的时代，服务端组件和 Actions 将会改变我们构建应用的方式。
