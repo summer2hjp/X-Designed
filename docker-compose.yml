@@ -1,8 +1,0 @@
-services:
-  blog:
-    build: .
-    ports:
-      - "3000:3000"
-    environment:
-      - SITE_URL=${SITE_URL:-https://example.com}
-    restart: unless-stopped
