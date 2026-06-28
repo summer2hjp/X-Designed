@@ -1,4 +1,3 @@
-
 # CLAUDE.md
 
 ## 核心铁律
@@ -40,10 +39,6 @@ src/components/
 ### 2. 视觉增强用 Aceternity UI 包裹
  - 不需要修改 shadcn 组件本身，而是用 Aceternity 组件作为外层装饰容器。
  - 标准结构：  
-  ```jsx
-  <AceternityComponent>
-    <shadcnComponent />
-  </AceternityComponent>
 
 ### 3. 项目级复用必须抽到 common/
  - 当某个 ui + aceternity 组合在项目中出现 ≥2 次，必须封装到 common/ 目录，暴露简洁的 Props。 
