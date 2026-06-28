@@ -10,10 +10,11 @@
 6. **动效必须支持 `prefers-reduced-motion`**。
 
 ## 技术栈
- - React 18 + Vite + Tailwind CSS 3 + TypeScript（严格模式） 
- - 表单：react-hook-form + zod 
- - 路由：react-router-dom v6 
- - 数据：TanStack Query
+ - React 19 + Vite 8 + Tailwind CSS 3 + TypeScript 6（严格模式）
+ - UI 基础：shadcn（`@shadcn/react`）+ Radix（`@base-ui/react`）
+ - 动效：framer-motion
+ - 图标：lucide-react + @tabler/icons-react
+ - 代码检查：oxlint（取代 ESLint）
 
 ## 目录结构
 src/components/ 
@@ -57,9 +58,13 @@ src/components/
  - 所有颜色、间距、响应式变化均使用 Tailwind 原子类，在调用组件的父级传入 className。 
  - 禁止在组件外部编写自定义 CSS 文件来覆盖组件内部样式。
  
-### 6.可访问性不可破坏 
+### 6. 可访问性不可破坏 
  - shadcn 组件的键盘导航、焦点管理、ARIA 属性必须保持完整。  
  - Aceternity 包裹层不能改变 DOM 顺序或阻止焦点进入操作区域。
+
+### 7. Tailwind CSS 3 配置
+ - 配置在 `tailwind.config.js`，主题变量通过 `@layer base` 中的 CSS 变量定义。
+ - PostCSS 自动注入，无需额外 Vite 插件。
 
 ## 禁止事项
  - 禁止修改 src/components/ui/ 下的任何源码。 
@@ -70,5 +75,5 @@ src/components/
 
 ## 提交规范
  - 格式：feat: / fix: / refactor: / style: / docs: / chore: 
- - 提交前必须通过 ESLint + TypeScript 检查。
+ - 提交前必须通过 oxlint + TypeScript 检查。
 
