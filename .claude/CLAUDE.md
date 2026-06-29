@@ -16,19 +16,30 @@
  - 代码检查：oxlint（取代 ESLint）
 
 ## 目录结构
-src/components/ 
-├── ui/        # shadcn/ui 组件，只读，通过 CLI 生成 
-├── aceternity/   # Aceternity UI 动效组件，可按需微调
-├── common/       # 原子级封装（按钮、标题、反馈等） 
-│   ├── buttons/ 
-│   ├── typography/ 
-│   └── feedback/ 
-└── blocks/       # 页面级业务块（Hero、FeatureGrid 等）
 
-- `ui/` 中文件由 `npx shadcn-ui@latest add` 生成，**严禁手动修改**。
-- `aceternity/` 中文件通过 CLI 或手动复制添加，**允许微调动画参数和外观**。
-- `common/` 由开发者维护，是对 `ui` 与 `aceternity` 的组合封装。
-- `blocks/` 由开发者维护，是对 `common` 及原语的业务编排。
+```
+src/components/
+├── ui/          # 基础 shadcn 组件（按钮、输入框、对话框等）
+├── aceternity/  # 带动画的 Aceternity UI 组件（3D、粒子、光效等）
+├── common/      # 可复用原子组件（ui + aceternity 的组合封装）
+│   ├── buttons/
+│   ├── typography/
+│   └── feedback/
+└── blocks/      # 页面级业务块（dashboard、sidebar、login、signup 等模块）
+```
+
+### 优先级与引用规则（从高到低）
+
+```
+common/ (最高)  →  可引用 blocks/、aceternity/、ui/
+blocks/         →  可引用 common/、aceternity/、ui/
+aceternity/     →  可引用 ui/（仅 utils/cn），不可引用 common/、blocks/
+ui/ (最低)      →  不可引用任何项目组件（仅 npm 包 + lib/utils）
+```
+
+- **common/ 优先** — 项目中有 2 处以上相同的 ui + aceternity 组合，必须先抽到 common/
+- **blocks/ 封装页面** — 大型业务区域（dashboard 面板、登录注册、侧边栏等）放 blocks/
+- **页面文件禁止混用** — 只能从 common/ 或 blocks/ 导入，不得直接混合 ui/ + aceternity/（一次性布局除外）
 
 ## 前端开发遵循原则
 
