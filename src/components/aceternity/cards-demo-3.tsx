@@ -1,6 +1,6 @@
 "use client";
 import { animate, motion } from "motion/react";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { cn } from "src/lib/utils";
 import { IconRobot } from "@tabler/icons-react";
 

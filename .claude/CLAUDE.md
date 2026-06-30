@@ -1,5 +1,25 @@
 # CLAUDE.md
 
+## Commands
+
+| 命令 | 用途 |
+|------|------|
+| `npm run dev` | 启动 Vite 开发服务器 |
+| `npm run build` | TypeScript 检查 + Vite 构建 |
+| `npm run lint` | oxlint 代码检查（替代 ESLint） |
+| `npm run preview` | 预览生产构建 |
+| `npx shadcn add <component>` | 添加 shadcn/ui 组件 |
+
+## 配置要点
+
+- **路径别名**: `@/` → `src/`（`vite.config.ts` + `tsconfig.app.json` 同步配置）
+- **深色模式**: `class` 策略（`tailwind.config.js` 中 `darkMode: 'class'`），通过 `next-themes` 切换
+- **主题变量**: 定义在 `index.css` 的 `@layer base` 中，使用 OKLCH 色值，分为 `:root`（亮色）和 `.dark`（暗色）两组
+- **字体**: Geist Variable（通过 `@fontsource-variable/geist` 导入，`index.css` 首行），后备为 system-ui
+- **CSS 动画降级**: 全局 `prefers-reduced-motion: reduce` 在 `index.css` 最后
+- **Aceternity**: 在 `components.json` 中注册了 registry `https://ui.aceternity.com/registry/{name}.json`
+- **cn() 工具**: `src/lib/utils.ts` — `clsx` + `tailwind-merge`，用于合并 Tailwind 类名
+
 ## 核心铁律
 1. **内层 shadcn，外层 Aceternity** — 永远 `<Aceternity><shadcn /></Aceternity>`，反过来不行。
 2. **页面文件不混用 ui 和 aceternity** — 复用抽到 `common/`，页面块放 `blocks/`。

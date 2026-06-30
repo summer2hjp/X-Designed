@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 
-import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "src/components/aceternity/tracing-beam";
 
 export default function TracingBeamDemo() {

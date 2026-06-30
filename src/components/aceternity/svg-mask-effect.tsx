@@ -25,14 +25,14 @@ export const MaskContainer = ({
   };
 
   useEffect(() => {
-    containerRef.current.addEventListener("mousemove", updateMousePosition);
+    const el = containerRef.current;
+    if (!el) return;
+    el.addEventListener("mousemove", updateMousePosition);
     return () => {
-      if (containerRef.current) {
-        containerRef.current.removeEventListener(
-          "mousemove",
-          updateMousePosition,
-        );
-      }
+      el.removeEventListener(
+        "mousemove",
+        updateMousePosition,
+      );
     };
   }, []);
   let maskSize = isHovered ? revealSize : size;
