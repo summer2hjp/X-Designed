@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import React from "react";
-import { ImagesSlider } from "src/components/aceternity/images-slider";
+import { ImagesSlider } from "@/components/aceternity/images-slider";
 
 export default function ImagesSliderDemo() {
   const images = [

@@ -1,4 +1,4 @@
-import { CometCard } from "src/components/aceternity/comet-card";
+import { CometCard } from "@/components/aceternity/comet-card";
 
 export default function CometCardDemo() {
   return (

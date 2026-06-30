@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { BackgroundGradient } from "src/components/aceternity/background-gradient";
+import { BackgroundGradient } from "@/components/aceternity/background-gradient";
 
 
 export default function BackgroundGradientDemo() {

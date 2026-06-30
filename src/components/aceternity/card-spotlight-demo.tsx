@@ -1,4 +1,4 @@
-import { CardSpotlight } from "src/components/aceternity/card-spotlight";
+import { CardSpotlight } from "@/components/aceternity/card-spotlight";
 
 export default function CardSpotlightDemo() {
   return (

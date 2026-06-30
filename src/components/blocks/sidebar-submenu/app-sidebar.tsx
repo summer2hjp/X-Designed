@@ -12,7 +12,7 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
   SidebarRail,
-} from "src/components/ui/sidebar"
+} from "@/components/ui/sidebar"
 import { GalleryVerticalEndIcon } from "lucide-react"
 
 // This is sample data.

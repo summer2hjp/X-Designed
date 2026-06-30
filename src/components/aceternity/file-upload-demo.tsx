@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FileUpload } from "src/components/aceternity/file-upload";
+import { FileUpload } from "@/components/aceternity/file-upload";
 
 export default function FileUploadDemo() {
   const handleFileUpload = (files: File[]) => {

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { Notch, type NotchItem } from "src/components/aceternity/notch";
-import { cn } from "src/lib/utils";
+import { Notch, type NotchItem } from "@/components/aceternity/notch";
+import { cn } from "@/lib/utils";
 
 const COLORS = [
   { id: "#3b82f6", label: "Blue" },

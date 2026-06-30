@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Carousel, Card } from "src/components/aceternity/apple-cards-carousel";
+import { Carousel, Card } from "@/components/aceternity/apple-cards-carousel";
 
 export default function AppleCardsCarouselDemo() {
   const cards = data.map((card, index) => (

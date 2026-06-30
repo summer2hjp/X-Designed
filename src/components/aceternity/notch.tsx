@@ -2,7 +2,7 @@
 
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { cn } from "src/lib/utils";
+import { cn } from "@/lib/utils";
 
 export type NotchOption = {
   /** Stable identifier passed back in callbacks. */

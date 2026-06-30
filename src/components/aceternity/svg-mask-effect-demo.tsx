@@ -1,5 +1,5 @@
 "use client";
-import { MaskContainer } from "src/components/aceternity/svg-mask-effect";
+import { MaskContainer } from "@/components/aceternity/svg-mask-effect";
 
 export default function SVGMaskEffectDemo() {
   return (

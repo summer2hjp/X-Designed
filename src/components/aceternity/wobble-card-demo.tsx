@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { WobbleCard } from "src/components/aceternity/wobble-card";
+import { WobbleCard } from "@/components/aceternity/wobble-card";
 
 export default function WobbleCardDemo() {
   return (

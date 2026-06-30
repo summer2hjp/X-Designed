@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Sidebar, SidebarBody, SidebarLink } from "src/components/aceternity/sidebar";
+import { Sidebar, SidebarBody, SidebarLink } from "@/components/aceternity/sidebar";
 import {
   IconArrowLeft,
   IconBrandTabler,
@@ -8,7 +8,7 @@ import {
   IconUserBolt,
 } from "@tabler/icons-react";
 import { motion } from "motion/react";
-import { cn } from "src/lib/utils";
+import { cn } from "@/lib/utils";
 
 export default function SidebarDemo() {
   const links = [

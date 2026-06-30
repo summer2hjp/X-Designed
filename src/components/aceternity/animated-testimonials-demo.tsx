@@ -1,4 +1,4 @@
-import { AnimatedTestimonials } from "src/components/aceternity/animated-testimonials";
+import { AnimatedTestimonials } from "@/components/aceternity/animated-testimonials";
 
 export default function AnimatedTestimonialsDemo() {
   const testimonials = [

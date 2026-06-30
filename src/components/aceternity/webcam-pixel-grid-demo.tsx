@@ -1,4 +1,4 @@
-import { WebcamPixelGrid } from "src/components/aceternity/webcam-pixel-grid";
+import { WebcamPixelGrid } from "@/components/aceternity/webcam-pixel-grid";
 
 export default function WebcamPixelGridDemo() {
   return (

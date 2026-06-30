@@ -1,5 +1,5 @@
 import React from "react";
-import { Compare } from "src/components/aceternity/compare";
+import { Compare } from "@/components/aceternity/compare";
 
 export default function CompareDemo() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { Meteors } from "src/components/aceternity/meteors";
+import { Meteors } from "@/components/aceternity/meteors";
 
 export default function MeteorsDemo() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { Timeline } from "src/components/aceternity/timeline";
+import { Timeline } from "@/components/aceternity/timeline";
 
 export default function TimelineDemo() {
   const data = [

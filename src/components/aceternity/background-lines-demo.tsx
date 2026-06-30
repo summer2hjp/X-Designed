@@ -1,5 +1,5 @@
 import React from "react";
-import { BackgroundLines } from "src/components/aceternity/background-lines";
+import { BackgroundLines } from "@/components/aceternity/background-lines";
 
 export default function BackgroundLinesDemo() {
   return (

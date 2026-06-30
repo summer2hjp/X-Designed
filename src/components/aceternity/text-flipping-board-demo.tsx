@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect, useCallback } from "react";
-import { TextFlippingBoard } from "src/components/aceternity/text-flipping-board";
+import { TextFlippingBoard } from "@/components/aceternity/text-flipping-board";
 
 const MESSAGES: string[] = [
   "STAY HUNGRY \nSTAY IN BED \n- STEVE JOBS",

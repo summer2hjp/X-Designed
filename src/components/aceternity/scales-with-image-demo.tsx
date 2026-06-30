@@ -1,4 +1,4 @@
-import { Scales } from "src/components/aceternity/scales";
+import { Scales } from "@/components/aceternity/scales";
 
 export default function ScalesWithImageDemo() {
   return (

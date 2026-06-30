@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { HeroParallax } from "src/components/aceternity/hero-parallax";
+import { HeroParallax } from "@/components/aceternity/hero-parallax";
 
 export default function HeroParallaxDemo() {
   return <HeroParallax products={products} />;

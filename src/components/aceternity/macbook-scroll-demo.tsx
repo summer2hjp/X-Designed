@@ -1,5 +1,5 @@
 import React from "react";
-import { MacbookScroll } from "src/components/aceternity/macbook-scroll";
+import { MacbookScroll } from "@/components/aceternity/macbook-scroll";
 
 export default function MacbookScrollDemo() {
   return (

@@ -1,5 +1,5 @@
 "use client";
-import { Terminal } from "src/components/aceternity/terminal";
+import { Terminal } from "@/components/aceternity/terminal";
 
 export default function TerminalDemo() {
   return (

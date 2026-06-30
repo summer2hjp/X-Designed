@@ -1,5 +1,5 @@
 import React from "react";
-import { Vortex } from "src/components/aceternity/vortex";
+import { Vortex } from "@/components/aceternity/vortex";
 
 export default function VortexDemo() {
   return (

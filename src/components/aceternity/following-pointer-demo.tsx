@@ -1,4 +1,4 @@
-import { FollowerPointerCard } from "src/components/aceternity/following-pointer";
+import { FollowerPointerCard } from "@/components/aceternity/following-pointer";
 
 export default function FollowingPointerDemo() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { DottedGlowBackground } from "src/components/aceternity/dotted-glow-background";
+import { DottedGlowBackground } from "@/components/aceternity/dotted-glow-background";
 
 export default function DottedGlowBackgroundDemoSecond() {
   return (

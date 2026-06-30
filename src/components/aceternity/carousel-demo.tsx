@@ -1,6 +1,6 @@
 "use client";
 
-import Carousel from "src/components/aceternity/carousel";
+import Carousel from "@/components/aceternity/carousel";
 export default function CarouselDemo() {
   const slideData = [
     {

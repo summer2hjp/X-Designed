@@ -1,4 +1,4 @@
-import { HoverEffect } from "src/components/aceternity/card-hover-effect";
+import { HoverEffect } from "@/components/aceternity/card-hover-effect";
 
 export default function CardHoverEffectDemo() {
   return (

@@ -1,4 +1,4 @@
-import { ContainerTextFlip } from "src/components/aceternity/container-text-flip";
+import { ContainerTextFlip } from "@/components/aceternity/container-text-flip";
 
 export default function ContainerTextFlipDemo() {
   return (

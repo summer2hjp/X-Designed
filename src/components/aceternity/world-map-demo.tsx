@@ -1,5 +1,5 @@
 "use client";
-import WorldMap from "src/components/aceternity/world-map";
+import WorldMap from "@/components/aceternity/world-map";
 import { motion } from "motion/react";
 
 export default function WorldMapDemo() {

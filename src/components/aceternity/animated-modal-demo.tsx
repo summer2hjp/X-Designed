@@ -6,7 +6,7 @@ import {
   ModalContent,
   ModalFooter,
   ModalTrigger,
-} from "src/components/aceternity/animated-modal";
+} from "@/components/aceternity/animated-modal";
 
 import { motion } from "motion/react";
 

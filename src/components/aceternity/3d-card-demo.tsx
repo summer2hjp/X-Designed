@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "src/components/aceternity/3d-card";
+import { CardBody, CardContainer, CardItem } from "@/components/aceternity/3d-card";
 
 export default function ThreeDCardDemo() {
   return (

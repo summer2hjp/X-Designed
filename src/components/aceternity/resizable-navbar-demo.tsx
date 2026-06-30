@@ -9,7 +9,7 @@ import {
   MobileNavHeader,
   MobileNavToggle,
   MobileNavMenu,
-} from "src/components/aceternity/resizable-navbar";
+} from "@/components/aceternity/resizable-navbar";
 import { useState } from "react";
 
 export default function NavbarDemo() {

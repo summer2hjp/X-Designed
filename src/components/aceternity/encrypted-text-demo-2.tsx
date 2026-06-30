@@ -1,4 +1,4 @@
-import { EncryptedText } from "src/components/aceternity/encrypted-text";
+import { EncryptedText } from "@/components/aceternity/encrypted-text";
 import React from "react";
 
 export default function EncryptedTextDemoSecond() {

@@ -1,5 +1,5 @@
 import React from "react";
-import { BackgroundBeamsWithCollision } from "src/components/aceternity/background-beams-with-collision";
+import { BackgroundBeamsWithCollision } from "@/components/aceternity/background-beams-with-collision";
 
 export default function BackgroundBeamsWithCollisionDemo() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { GooeyInput } from "src/components/aceternity/gooey-input";
+import { GooeyInput } from "@/components/aceternity/gooey-input";
 
 export default function GooeyInputDemo() {
   return (

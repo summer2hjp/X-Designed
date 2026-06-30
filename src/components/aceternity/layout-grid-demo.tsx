@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { LayoutGrid } from "src/components/aceternity/layout-grid";
+import { LayoutGrid } from "@/components/aceternity/layout-grid";
 
 export default function LayoutGridDemo() {
   return (

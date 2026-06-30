@@ -1,5 +1,5 @@
 "use client";
-import { ThreeDMarquee } from "src/components/aceternity/3d-marquee";
+import { ThreeDMarquee } from "@/components/aceternity/3d-marquee";
 
 export default function ThreeDMarqueeDemo() {
   const images = [

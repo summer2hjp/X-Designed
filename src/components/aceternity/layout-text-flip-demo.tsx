@@ -1,5 +1,5 @@
 "use client";
-import { LayoutTextFlip } from "src/components/aceternity/layout-text-flip";
+import { LayoutTextFlip } from "@/components/aceternity/layout-text-flip";
 import { motion } from "motion/react";
 
 export default function LayoutTextFlipDemo() {

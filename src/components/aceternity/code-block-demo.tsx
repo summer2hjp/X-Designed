@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import { CodeBlock } from "src/components/aceternity/code-block";
+import { CodeBlock } from "@/components/aceternity/code-block";
 
 export default function CodeBlockDemo() {
   const code = `const DummyComponent = () => {

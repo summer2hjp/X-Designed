@@ -2,8 +2,8 @@
 
 import { useMotionValue, motion, useMotionTemplate } from "motion/react";
 import React, { MouseEvent as ReactMouseEvent, useState } from "react";
-import { CanvasRevealEffect } from "src/components/aceternity/canvas-reveal-effect";
-import { cn } from "src/lib/utils";
+import { CanvasRevealEffect } from "@/components/aceternity/canvas-reveal-effect";
+import { cn } from "@/lib/utils";
 
 export const CardSpotlight = ({
   children,

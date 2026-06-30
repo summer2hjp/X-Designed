@@ -2,7 +2,7 @@ import React from "react";
 import {
   DraggableCardBody,
   DraggableCardContainer,
-} from "src/components/aceternity/draggable-card";
+} from "@/components/aceternity/draggable-card";
 
 export default function DraggableCardDemo() {
   const items = [

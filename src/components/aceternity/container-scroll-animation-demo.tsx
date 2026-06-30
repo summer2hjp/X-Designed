@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { ContainerScroll } from "src/components/aceternity/container-scroll-animation";
+import { ContainerScroll } from "@/components/aceternity/container-scroll-animation";
 
 export default function HeroScrollDemo() {
   return (

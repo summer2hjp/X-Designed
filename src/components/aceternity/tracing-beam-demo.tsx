@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import { TracingBeam } from "src/components/aceternity/tracing-beam";
+import { TracingBeam } from "@/components/aceternity/tracing-beam";
 
 export default function TracingBeamDemo() {
   return (

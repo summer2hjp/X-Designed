@@ -1,7 +1,7 @@
 "use client";
 import { animate, motion } from "motion/react";
 import React, { useEffect } from "react";
-import { cn } from "src/lib/utils";
+import { cn } from "@/lib/utils";
 import { IconRobot } from "@tabler/icons-react";
 
 export default function CardDemo() {

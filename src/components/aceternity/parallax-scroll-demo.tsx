@@ -1,5 +1,5 @@
 "use client";
-import { ParallaxScroll } from "src/components/aceternity/parallax-scroll";
+import { ParallaxScroll } from "@/components/aceternity/parallax-scroll";
 
 export default function ParallaxScrollDemo() {
   return <ParallaxScroll images={images} />;

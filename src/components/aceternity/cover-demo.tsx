@@ -1,5 +1,5 @@
 import React from "react";
-import { Cover } from "src/components/aceternity/cover";
+import { Cover } from "@/components/aceternity/cover";
 
 export default function CoverDemo() {
   return (

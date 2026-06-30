@@ -1,6 +1,6 @@
 "use client";
 
-import { PlaceholdersAndVanishInput } from "src/components/aceternity/placeholders-and-vanish-input";
+import { PlaceholdersAndVanishInput } from "@/components/aceternity/placeholders-and-vanish-input";
 
 export default function PlaceholdersAndVanishInputDemo() {
   const placeholders = [

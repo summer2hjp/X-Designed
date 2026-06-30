@@ -1,4 +1,4 @@
-import { PointerHighlight } from "src/components/aceternity/pointer-highlight";
+import { PointerHighlight } from "@/components/aceternity/pointer-highlight";
 
 export default function PointerHighlightDemo() {
   return (

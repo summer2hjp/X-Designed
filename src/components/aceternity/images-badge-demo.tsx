@@ -1,5 +1,5 @@
 "use client";
-import { ImagesBadge } from "src/components/aceternity/images-badge";
+import { ImagesBadge } from "@/components/aceternity/images-badge";
 
 export default function ImagesBadgeDemo() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { InfiniteMovingCards } from "src/components/aceternity/infinite-moving-cards";
+import { InfiniteMovingCards } from "@/components/aceternity/infinite-moving-cards";
 
 export default function InfiniteMovingCardsDemo() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import { cn } from "src/lib/utils";
-import { Spotlight } from "src/components/aceternity/spotlight";
+import { cn } from "@/lib/utils";
+import { Spotlight } from "@/components/aceternity/spotlight";
 
 export default function SpotlightPreview() {
   return (

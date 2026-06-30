@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef, useEffect, useState, useCallback } from "react";
-import { cn } from "src/lib/utils";
+import { cn } from "@/lib/utils";
 
 type WebcamPixelGridProps = {
   /** Number of columns in the grid */

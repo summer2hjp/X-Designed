@@ -4,7 +4,7 @@ import {
   TextRevealCard,
   TextRevealCardDescription,
   TextRevealCardTitle,
-} from "src/components/aceternity/text-reveal-card";
+} from "@/components/aceternity/text-reveal-card";
 
 export default function TextRevealCardPreview() {
   return (

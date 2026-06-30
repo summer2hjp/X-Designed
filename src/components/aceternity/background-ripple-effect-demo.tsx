@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { BackgroundRippleEffect } from "src/components/aceternity/background-ripple-effect";
+import { BackgroundRippleEffect } from "@/components/aceternity/background-ripple-effect";
 
 export default function BackgroundRippleEffectDemo() {
   return (

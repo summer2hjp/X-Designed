@@ -3,7 +3,7 @@ import React, { useRef, useMemo, useState, useCallback, Suspense } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls, Html, useTexture } from "@react-three/drei";
 import * as THREE from "three";
-import { cn } from "src/lib/utils";
+import { cn } from "@/lib/utils";
 
 // ============================================================================
 // Types

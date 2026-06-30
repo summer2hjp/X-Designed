@@ -1,5 +1,5 @@
 "use client";
-import { Globe3D, GlobeMarker } from "src/components/aceternity/3d-globe";
+import { Globe3D, GlobeMarker } from "@/components/aceternity/3d-globe";
 
 const sampleMarkers: GlobeMarker[] = [
   {

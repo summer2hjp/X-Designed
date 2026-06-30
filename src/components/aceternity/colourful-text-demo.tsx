@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import ColourfulText from "src/components/aceternity/colourful-text";
+import ColourfulText from "@/components/aceternity/colourful-text";
 import { motion } from "motion/react";
 
 export default function ColourfulTextDemo() {

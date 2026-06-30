@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
-import { Lens } from "src/components/aceternity/lens";
+import { Lens } from "@/components/aceternity/lens";
 
 import { motion } from "motion/react";
-import { cn } from "src/lib/utils";
+import { cn } from "@/lib/utils";
 
 export default function LensDemo() {
   const [hovering, setHovering] = useState(false);

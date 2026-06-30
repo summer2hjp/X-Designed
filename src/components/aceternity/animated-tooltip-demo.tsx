@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { AnimatedTooltip } from "src/components/aceternity/animated-tooltip";
+import { AnimatedTooltip } from "@/components/aceternity/animated-tooltip";
 const people = [
   {
     id: 1,

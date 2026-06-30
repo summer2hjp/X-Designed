@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Button } from "src/components/aceternity/stateful-button";
+import { Button } from "@/components/aceternity/stateful-button";
 
 export default function StatefulButtonDemo() {
   // dummy API call

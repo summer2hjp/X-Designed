@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { PinContainer } from "src/components/aceternity/3d-pin";
+import { PinContainer } from "@/components/aceternity/3d-pin";
 
 export default function AnimatedPinDemo() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { Tabs } from "src/components/aceternity/tabs";
+import { Tabs } from "@/components/aceternity/tabs";
 
 export default function TabsDemo() {
   const tabs = [

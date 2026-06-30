@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { SquigglyText } from "src/components/aceternity/squiggly-text";
+import { SquigglyText } from "@/components/aceternity/squiggly-text";
 
 export default function SquigglyTextDemo() {
   return (

@@ -1,5 +1,5 @@
 "use client";
-import { ParallaxHeroImages } from "src/components/aceternity/parallax-hero-images";
+import { ParallaxHeroImages } from "@/components/aceternity/parallax-hero-images";
 
 export default function ParallaxHeroImagesDemo() {
   return (

@@ -1,4 +1,4 @@
-import { FocusCards } from "src/components/aceternity/focus-cards";
+import { FocusCards } from "@/components/aceternity/focus-cards";
 
 export default function FocusCardsDemo() {
   const cards = [

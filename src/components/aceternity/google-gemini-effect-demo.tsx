@@ -1,7 +1,7 @@
 "use client";
 import { useScroll, useTransform } from "motion/react";
 import React from "react";
-import { GoogleGeminiEffect } from "src/components/aceternity/google-gemini-effect";
+import { GoogleGeminiEffect } from "@/components/aceternity/google-gemini-effect";
 
 export default function GoogleGeminiEffectDemo() {
   const ref = React.useRef(null);

@@ -1,5 +1,5 @@
 import React from "react";
-import { TextHoverEffect } from "src/components/aceternity/text-hover-effect";
+import { TextHoverEffect } from "@/components/aceternity/text-hover-effect";
 
 export default function TextHoverEffectDemo() {
   return (
